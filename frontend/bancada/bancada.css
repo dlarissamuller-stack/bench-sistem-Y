@@ -3,7 +3,7 @@ body{
     height:100%;
     padding:0;
     margin:0;
-    background-color: #3b4880;
+    background-color: #5a5e6e;
     color:#ffffff;
 }
 
@@ -13,7 +13,7 @@ body{
     justify-content:center;
 }
 
-div{
+.cartao{
     width: 350px;
     border: 0.52px #ffffff solid;
     padding: 20px;
@@ -26,6 +26,17 @@ div{
     gap:20px;
 }
 
+#inform div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    gap: 50px;
+    justify-content: left;
+    
+}
 section{
     display: flex;
     gap:20px;
